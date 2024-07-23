@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(14, 82, 230);
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Baloo Bhaijaan 2";
+    font-size: 3em;
+    margin: 40px auto;
+}
+
+h1 span {
+    display: block;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 150px;
+    width: 370px;
+    margin: auto;
+    margin-bottom: 140px;
+    padding: 40px;
+}
+
+main .btn-ingressar button {
+    background-color: rgb(14, 82, 230);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+main .btn-inscrever button {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 8px;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+main .btn-entrar button {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 8px;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+footer > p {
+    font-size: 14px;
+    font-weight: lighter;
+}
